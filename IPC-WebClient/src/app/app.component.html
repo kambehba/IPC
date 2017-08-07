@@ -1,3 +1,40 @@
-<h1>
-  {{title}}
-</h1>
+<div class="div1"> 
+  <!--<input class="btn btn-danger button1" type="button" value="ON" (click)="OnButtonClicked()"/>
+  <input class="btn btn-success button1"type="button" value="OFF" (click)="OFFButtonClicked()"/>-->
+
+<!--<div *ngFor="let o of outputs">
+  <br/>
+  <div>
+  <label>Outputs {{o.id}}</label>
+  <input class="btn btn-danger button1" type="button" value="ON" (click)="OnButtonClicked()"/>
+  <input class="btn btn-success button1"type="button" value="OFF" (click)="OFFButtonClicked()"/>
+  </div>
+  <br/>
+
+</div>-->
+<h1>INTERNET CONTROL</h1>
+
+<div class="container div2">
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th class="text3">Output Name</th>
+        <th class="text3">Status</th>
+         <th class="text3">Turn ON</th>
+          <th class="text3">Turn OFF</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let o of outputs">
+        <td>{{o.name}}</td>
+        <td>{{o.status}}</td>
+        <td><button class="btn btn-info button2" (click)="OnButtonClicked(o)">ON</button></td>
+        <td><button class="btn btn-danger button2" (click)="OFFButtonClicked(o)">OFF</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+</div>
