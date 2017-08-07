@@ -13,7 +13,7 @@ module.exports = function(app){
     //http GET
     
     //app.get('/api/outputs',function(req,res)
-    //app.get('https://internet-control.herokuapp.com/api/outputs',function(req,res)
+    //app.get('https://internet-control.herokuapp.com/api/outputs',function(req,res)dd
     app.get('/api/outputs/',function(req,res)
     {
          console.log("*rrrrfffffffffrrrrrr");
