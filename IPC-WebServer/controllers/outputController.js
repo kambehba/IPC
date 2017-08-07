@@ -10,7 +10,7 @@ module.exports = function(app){
     app.use(bodyParser.urlencoded({extended:true}));
 
     
-    //http GETfffffffffffffffffffgfgf888888888888888
+    //http GET
     
     //app.get('/api/outputs',function(req,res)
     //app.get('https://internet-control.herokuapp.com/api/outputs',function(req,res)dd
