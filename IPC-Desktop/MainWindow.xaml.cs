@@ -41,26 +41,26 @@ namespace InternetControl
 
         private void Start_Click(object sender, RoutedEventArgs e)
         {
-            mainTimer.Start();
+             mainTimer.Start();
 
-         
+            myport.WriteLine("ON");
 
         }
 
         private void Stop_Click(object sender, RoutedEventArgs e)
         {
-            mainTimer.Stop();
+               mainTimer.Stop();
+            myport.WriteLine("OFF");
 
-           
 
         }
 
         private void InitializeSerialPort()
         {
-           // myport = new SerialPort();
-           // myport.BaudRate = 9600;
-           // myport.PortName = "COM4";
-           // myport.Open();
+            myport = new SerialPort();
+            myport.BaudRate = 9600;
+            myport.PortName = "COM5";
+            myport.Open();
         }
 
 
@@ -78,7 +78,7 @@ namespace InternetControl
 
                 light.Background = Brushes.Green;
                 lightstatus.Content = "ON";
-                //myport.WriteLine("ON");
+                myport.WriteLine("ON");
             }
 
             if (g[9] == "OFF")
@@ -86,7 +86,7 @@ namespace InternetControl
 
                 light.Background = Brushes.Red;
                 lightstatus.Content = "OFF";
-                //myport.WriteLine("OFF");
+                myport.WriteLine("OFF");
             }
           
             

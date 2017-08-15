@@ -1,0 +1,14 @@
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.Cache
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
