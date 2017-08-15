@@ -23,4 +23,3 @@ C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\obj\Debug\InternetControl.Properti
 C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\obj\Debug\InternetControl.csproj.GenerateResource.Cache
 C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\obj\Debug\InternetControl.exe
 C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\obj\Debug\InternetControl.pdb
-C:\Users\kam\Documents\GitHub\IPC\IPC-Desktop\obj\Debug\InternetControl.csprojResolveAssemblyReference.cache
