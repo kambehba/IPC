@@ -1,13 +1,55 @@
-int loop=1;
-void setup()
-{ 
-   Serial.begin(9600);
+/*
 
+*/
+
+boolean stringComplete = false;
+String inputString = "";
+void setup() {
+  Serial.begin(9600);
+   digitalWrite(LED_BUILTIN, LOW);
+    
 }
 
-void loop()
-{
-   Serial.println("Data Loop="+String(Loop));
-   Loop++;
-   delay(500);
+void loop() {
+  
+  if(stringComplete)
+  {
+     stringComplete = false;
+    // Serial.println(inputString);
+     
+     if(inputString.substring(0,inputString.length()-1) == "ON")
+     {
+      
+       digitalWrite(LED_BUILTIN, HIGH);
+       inputString="";
+     }
+     Serial.println(inputString);
+      Serial.println(inputString.substring(0,inputString.length()-1));
+      if(inputString.substring(0,inputString.length()-1) == "OFF")
+     {
+       digitalWrite(LED_BUILTIN, LOW);
+        inputString="";
+     }
+      
+   
+  
+  }
+   
+    delay(500);
+   
+}
+
+void serialEvent() {
+  while (Serial.available()) {
+    // get the new byte:
+    char inChar = (char)Serial.read();
+    Serial.println(inChar);
+    // add it to the inputString:
+    inputString += inChar;
+    // if the incoming character is a newline, set a flag
+    // so the main loop can do something about it:
+    if (inChar == '\n') {
+      stringComplete = true;
+    }
+  }
 }
