@@ -36,7 +36,7 @@ namespace InternetControl
             mainTimer.Interval = TimeSpan.FromSeconds(1);
             light.Background = Brushes.Red;
             lightstatus.Content = "OFF";
-            mainTimer.Start();
+            mainTimer.Start();//fghgfh
         }
 
         private void Start_Click(object sender, RoutedEventArgs e)
