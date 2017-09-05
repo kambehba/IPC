@@ -19,7 +19,10 @@ export class OutputsService {
   }
 
    getOutput():Observable<Output[]> {
-        return this.http.get('http://localhost:3000/api/outputs')
+       // return this.http.get('http://localhost:3000/api/outputs')
+           // .map((response:Response)=>response.json());
+
+             return this.http.get('https://ipc-webserver.herokuapp.com/api/outputs')
             .map((response:Response)=>response.json());
    }
 
@@ -39,7 +42,12 @@ export class OutputsService {
 
 
      //return this.http.put('http://localhost:3000/api/outputs',body,options)
-       return this.http.post('http://localhost:3000/api/outputs',prams,options)
+      
+     //return this.http.post('http://localhost:3000/api/outputs',prams,options)
+     //  .map(this.extractData)
+      // .catch(this.handleErrorObservable);
+
+       return this.http.post('https://ipc-webserver.herokuapp.com/api/outputs',prams,options)
        .map(this.extractData)
        .catch(this.handleErrorObservable);
 

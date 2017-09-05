@@ -66,7 +66,9 @@ namespace InternetControl
 
         private void OnTimedEvent(object source, EventArgs e)
         {
-            var request = (HttpWebRequest)WebRequest.Create("http://localhost:3000/api/outputs");
+            //var request = (HttpWebRequest)WebRequest.Create("http://localhost:3000/api/outputs");
+            var request = (HttpWebRequest)WebRequest.Create("https://ipc-webserver.herokuapp.com/api/outputs");
+            
             var response = (HttpWebResponse)request.GetResponse();
 
             
